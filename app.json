@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "myapp_bioinf",
+    "slug": "myapp_bioinf",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "assets/images/images.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "assets/images\bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "assets/images/curso-bioinformatica.jpg",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
